@@ -1,30 +1,19 @@
-import React, { useEffect } from "react";
-import { useState } from "react";
+import AxiosPostFormData from "./AxiosPostFormData";
+import AxiosPut from "./AxiosPut";
+import Fetch from "./Fetch";
+import Image from "./Image";
+import PostHeader from "./PostHeader";
+import Simplefetch from "./Simplefetch";
 
 const App = () => {
-  const [data, setData] = useState([]);
-  const url = "https://fakestoreapi.com/products";
-
-  useEffect(() => {
-    console.log("check useeffect");
-    fetch(url)
-      .then((resp) => resp.json())
-      .then((d) => setData(d));
-  },[]);
-
   return (
     <div>
-      {data.map((item, index) => {
-        return (
-          console.log("-=-=--->", item, index),
-          (
-            <div key={item.id}>
-              <h1>{item.title}</h1>
-              <h1>{item.price}</h1>
-            </div>
-          )
-        );
-      })}
+      {/* <Fetch/> */}
+      {/* <AxiosPut /> */}
+      {/* <Simplefetch /> */}
+      {/* <PostHeader /> */}
+      {/* <Image/> */}
+      <AxiosPostFormData/>
     </div>
   );
 };

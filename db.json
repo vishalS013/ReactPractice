@@ -1,12 +1,14 @@
 {
-    "posts": [
-      {
-        "title": "CopyRight Automatico",
-        "tags": "[JS]"
-      },
-      {
-        "title": "HtmlWebpackPlugin Multiples HTML files",
-        "tags": "[JS, webpack]"
-      }
-    ]
-  }
+  "posts": [
+    {
+      "title": "CopyRight Automatico",
+      "tags": "[JS]",
+      "id": "133b"
+    },
+    {
+      "title": "HtmlWebpackPlugin Multiples HTML files",
+      "tags": "[JS, webpack]",
+      "id": "2062"
+    }
+  ]
+}
